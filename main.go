@@ -50,7 +50,7 @@ func main() {
 
 	routers.UserRouter(appRoute, userController, authService)
 
-	err = app.Run(":8080")
+	err = app.Run(":8000")
 	if err != nil {
 		log.Fatal("Failed to start the server")
 	}
