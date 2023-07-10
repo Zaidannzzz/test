@@ -48,7 +48,3 @@ jobs:
           context: .
           push: true
           tags: zaidanzulhakim/test:latest
-      
-      - name: Deploy to local environment
-        run: |
-          docker-compose up
