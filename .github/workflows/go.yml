@@ -51,4 +51,4 @@ jobs:
       
       - name: Deploy to local environment
         run: |
-          docker-compose up -d
+          docker-compose up
